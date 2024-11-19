@@ -51,7 +51,6 @@ You need to re-run the `yarn run dev` command.
 
 ```scss
 .service-block {
-  @apply bg-red-100;
-  @apply text-purple-500;
+  @apply bg-yellow-100 text-purple-500;
 }
 ```
