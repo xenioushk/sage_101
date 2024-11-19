@@ -46,3 +46,12 @@ npm install @roots/bud-sass --save-dev
 ```
 
 You need to re-run the `yarn run dev` command.
+
+### Include TailWindCSS properties to custom-style.scss
+
+```scss
+.service-block {
+  @apply bg-red-100;
+  @apply text-purple-500;
+}
+```
